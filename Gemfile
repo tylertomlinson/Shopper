@@ -30,8 +30,6 @@ group :test do
   gem 'launchy'
   gem 'simplecov'
   gem 'shoulda-matchers'
-  gem 'selenium-webdriver'
-  gem 'chromedriver-helper'
 end
 
 group :development do
