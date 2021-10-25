@@ -1,7 +1,7 @@
 <div class="login">
   <div class="card">
     <div class="card-block">
-      <h2>Log in</h2>
+      <h2>Login</h2>
 
       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
         <div class="form-group">
@@ -21,8 +21,8 @@
           </div>
         <% end -%>
 
-        <div class="form-group">
-          <%= f.submit "Log in", class: 'btn btn-primary' %>
+        <div class="form-group1">
+          <%= f.submit "Login", class: 'btn btn-primary' %>
         </div>
       <% end %>
 
@@ -32,5 +32,3 @@
     </div>
   </div>
 </div>
-
-
