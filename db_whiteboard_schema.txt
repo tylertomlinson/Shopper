@@ -1,0 +1,10 @@
+Recipe
+  name
+  image
+  link
+  calories
+  sugar
+  fat
+  type
+
+  
